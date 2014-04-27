@@ -1,0 +1,524 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*------------------------------------------Container------------------------------------------------------*/
+.container {
+	max-width:1080px;
+	min-width:320px;
+	margin: 0 auto;	
+}
+
+/*------------------------------------------Fonts------------------------------------------------------*/
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+h1 {
+	font-size: 40px;
+	font-family: OpenSans-Regular;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: OpenSans-Regular;
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+	font-family: OpenSans-Regular;
+}
+
+.increase_h1 {
+  font-size: 60px;
+}
+
+.increase_h2 {
+  font-size: 37.5px;
+}
+
+.increase_p {
+  font-size: 30px;
+}
+
+.decrease_h1 {
+  font-size: 30px;
+}
+
+.decrease_h2 {
+  font-size: 18.75px;
+}
+
+.decrease_p {
+  font-size: 15px;
+}
+
+
+/*------------------------------------------Navigation------------------------------------------------------*/
+
+#nav {
+	background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, gray); /* Standard syntax */
+	background-size:cover;
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+#logo {
+
+	width:138px;
+	color:#CCC;
+	margin-left:10px;
+
+}
+
+.header1 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 40px;
+}
+
+.header1:first-letter {
+	color:#FF7809;
+}
+
+.header2 {
+	margin-top:0px;
+	margin-bottom:10px;
+	font-size: 25px;
+}
+
+span {
+	color:#FF7809;
+}
+
+#get_app {
+	width: 100px;
+	margin-right: 10px;
+	margin-top: -60px;
+	float: right;
+}
+
+.download {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:OpenSans-Regular;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #287ace;
+}
+
+
+.download:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}
+
+.download:active {
+	position:relative;
+	top:1px;
+}
+
+#download_text {
+	font-size: 15px;
+}
+
+#fonts {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+/*------------------------------------------Showcase (Section1)------------------------------------------------------*/
+
+#showcase {
+	background-image: url('../images/fresh_snow_@2X.png');
+  	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	width: 100%;
+ 	float: left;
+}
+
+
+#title {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#title h2 {
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+#youtube {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+/*------------------------------------------Features (Section2)------------------------------------------------------*/
+
+#features {
+	background-image: url('../images/fresh_snow_@2X_orange.png');
+  	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	width: 100%;
+ 	float: left;
+}
+
+#ui {
+	margin:0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#slider {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 40%;
+}
+
+#description {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+/*------------------------------------------Contact (Section3)------------------------------------------------------*/
+
+#contact {
+	background-image: url('../images/fresh_snow_@2X_black.png');
+  	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	width: 100%;
+ 	float: left;
+}
+
+#section_heading {
+	margin:0 auto;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+#name {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	display: block;
+}
+
+#email {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	display: block;
+}
+
+#comment {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 100px;
+	font-size: 20px;
+	display: block;
+}
+
+#submit {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-size: 20px;
+	display: block;
+}
+
+#info {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 300px;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+/*------------------------------------------Tablets------------------------------------------------------*/
+
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+
+
+	/*------------------------------------------Fonts------------------------------------------------------*/
+
+	h1 {
+		font-size: 35px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	.increase_h1 {
+	  font-size: 50px;
+	}
+
+	.increase_h2 {
+	  font-size: 30px;
+	}
+
+	.increase_p {
+	  font-size: 25px;
+	}
+
+	.decrease_h1 {
+	  font-size: 25px;
+	}
+
+	.decrease_h2 {
+	  font-size: 20px;
+	}
+
+	.decrease_p {
+	  font-size: 15px;
+	}
+
+
+	/*------------------------------------------Navigation------------------------------------------------------*/
+
+
+	.header1 {
+		margin-top: 10px;
+		font-size: 35px;
+	}
+
+
+	.header2 {
+		margin-top:0px;
+		margin-bottom:10px;
+		font-size: 22px;
+	}
+
+
+	.download {
+		height:45px;
+		line-height:45px;
+	}
+
+	#fonts {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#plus {
+		margin-left: 10px;
+		width: 135px;
+		height: 45px;
+	}
+
+	#reset {
+		margin-right: 10px;
+		margin-left: 10px;
+		width: 135px;
+		height: 45px;
+	}
+
+	#minus {
+		margin-right: 10px;
+		width: 135px;
+		height: 45px;
+	}
+	
+	/*------------------------------------------Contact (Section3)------------------------------------------------------*/
+
+	#name {
+		height: 45px;
+		font-size: 18px;
+	}
+
+	#email {
+		height: 45px;
+		font-size: 18px;
+	}
+
+	#comment {
+		height: 80px;
+		font-size: 18px;
+	}
+
+	#submit {
+		height: 45px;
+		width:100px;
+		font-size: 18px;
+	}
+
+	#info {
+		font-size: 22px;
+	}
+
+}
+
+/*------------------------------------------Phones------------------------------------------------------*/
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+	/*------------------------------------------Fonts------------------------------------------------------*/
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	.increase_h1 {
+	  font-size: 30px;
+	}
+
+	.increase_h2 {
+	  font-size: 25px;
+	}
+
+	.increase_p {
+	  font-size: 18px;
+	}
+
+	.decrease_h1 {
+	  font-size: 20px;
+	}
+
+	.decrease_h2 {
+	  font-size: 18px;
+	}
+
+	.decrease_p {
+	  font-size: 12px;
+	}
+
+
+	/*------------------------------------------Navigation------------------------------------------------------*/
+
+	.header1 {
+		margin-top: 10px;
+		font-size: 25px;
+	}
+
+
+	.header2 {
+		margin-top:0px;
+		margin-bottom:10px;
+		font-size: 20px;
+	}
+
+	#get_app {
+		margin-top: -53px;
+	}
+
+	.download {
+		font-size: 13px;
+	}
+
+	#fonts {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	#plus {
+		display: block;
+		width: 135px;
+		height: 45px;
+	}
+
+	#reset {
+		margin-top: 20px;
+		display: block;
+		width: 135px;
+		height: 45px;
+	}
+
+	#minus {
+		margin-top: 20px;
+		display: block;
+		width: 135px;
+		height: 45px;
+	}
+	
+	/*------------------------------------------Contact (Section3)------------------------------------------------------*/
+
+	#name {
+		width: 200px;
+		font-size: 15px;
+	}
+
+	#email {
+		width: 200px;
+		font-size: 15px;
+	}
+
+	#comment {
+		width: 200px;
+		font-size: 15px;
+	}
+
+	#submit {
+		height: 45px;
+		width:100px;
+		font-size: 18px;
+	}
+
+	#info {
+		font-size: 20px;
+	}
+
+}
